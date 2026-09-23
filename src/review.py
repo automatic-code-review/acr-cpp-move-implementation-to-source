@@ -72,7 +72,7 @@ def review(config):
 
                 comments.append(commons.comment_create(
                     comment_id=commons.comment_generate_id(relative_path),
-                    comment_path="",
+                    comment_path=relative_path,
                     comment_description=description_message,
                     comment_snipset=False,
                 ))
